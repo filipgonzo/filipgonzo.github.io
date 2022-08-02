@@ -1,0 +1,48 @@
+body{
+    background-color:#212529;
+}
+.name{
+    color: rgb(231, 197, 5);
+    
+}
+
+.imagen{
+    
+    background-image:url(/assets/img/ingenieria-mecanica.jpg);
+    position:absolute;
+    filter: blur(4px);
+    background-size: contain;
+
+    
+}
+
+header{
+
+    display:inline-block;
+    position: relative;
+    margin-top: 15PX;
+}
+section{
+    margin-top:15% ;
+    
+}
+
+ul{
+    list-style-type: none;
+}
+
+.fotos-card{
+    height: 20rem;
+    background-size: contain;
+    background-repeat: no-repeat;
+
+}
+
+a{
+    text-decoration: none;
+    color: gray;
+}
+
+.card{
+    height: 30rem;
+}

@@ -1,0 +1,114 @@
+*{
+    margin: 0;  
+    padding: 0;
+}
+
+header{
+background-color: black;
+color: white;
+text-align: center;
+}
+
+.tittle h1{
+    font-family: raleway;
+    font-size: 59px;
+    padding-top: 7px;
+}
+
+main{
+    display: flow-root;
+    background-color: black;   
+}
+
+
+
+.text p{
+    float: left;
+    width: 475px;
+    height: 197px;
+    color: white;
+    font: normal normal 300 16px/19px Raleway;
+    margin: 76px 106px 75px 379px;
+    
+}
+
+.image img{
+    width: 399px;
+    height: 237px;
+    margin: 45px 150px 66px 0;
+    float: left;   
+}
+
+section{
+    background-color: #1E1A13;
+    color:  white;
+    text-align: center;
+    display: flow-root;
+}
+
+.caracteristic h2{
+    font: normal normal 500 40px/47px Raleway;
+    padding-top: 68px;
+    
+}
+
+ .icon{
+    margin-bottom: 120px;
+
+ } 
+
+.icon i{
+    display: inline-block;
+    padding-top: 50px;
+    padding-left: 110px;
+    height: 37px;
+
+   
+}
+
+i p{
+    font: normal normal 300 25px/30px Raleway;
+    margin-top: 17px;  
+}
+
+.gallery{
+    background-color: black;
+    text-align: center;
+    display: flow-root;
+}
+
+.gallery img{
+    width: 316px;
+    height: 202px;
+    display: inline-block;
+    margin-left: 16px;
+    margin-top: 73px;
+    margin-bottom: 73px;
+    
+}
+
+footer{
+    
+    background-color:#1E1A13 ;
+    color:#FFFFFF;
+    text-align: center;
+    font: normal normal 300 20px/24px Raleway;
+    padding: 39px 0;
+
+
+}
+
+
+
+footer a{
+    text-decoration: none;
+    color: #FFFFFF;
+    transition: 1s;
+    
+}
+
+footer a:hover{
+    text-decoration: none;
+    color: gold;
+    
+}
