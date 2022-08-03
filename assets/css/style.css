@@ -6,21 +6,15 @@ body{
     
 }
 
-.imagen{
-    
-    background-image:url(/assets/img/ingenieria-mecanica.jpg);
+.imagen {
     position:absolute;
     filter: blur(4px);
-    background-size: contain;
-
-    
+    height: fit-content;
 }
 
 header{
-
-    display:inline-block;
     position: relative;
-    margin-top: 15PX;
+    
 }
 section{
     margin-top:15% ;
@@ -34,8 +28,8 @@ ul{
 .fotos-card{
     height: 20rem;
     background-size: contain;
+    align-items: center;
     background-repeat: no-repeat;
-
 }
 
 a{
@@ -44,5 +38,5 @@ a{
 }
 
 .card{
-    height: 30rem;
+    height: 25rem;
 }
